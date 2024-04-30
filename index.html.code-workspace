@@ -1,10 +1,243 @@
-{
-    "folders": [
-		{
-			"path": "D:/my profile/index.html/.vscode"
-		}
-	],
-	"settings": {
-		"liveServer.settings.port": 5502
-	}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: rgb(0, 132, 0);
+            color: ghostwhite;
+           
+            
+        }
+        .navlinks a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .navlinks a:hover{
+            text-decoration: none;
+            color: rgb(33, 121, 103);
+        }
+        .navlinks li{
+            display: inline-block;
+            color: aliceblue;
+            padding: 30px;
+        }
+        h1{
+            display: flex;
+            justify-content:space-between;
+            color: aliceblue;
+        }
+        .navlinks{
+            margin: auto;
+            
+            
+            
+        }
+        .table1 td{
+   width: 100px;
+    
 }
+.table1 tr{
+    width: 100px;
+    color: blue;
+}
+body{
+    background-color: rgb(221, 221, 172);
+}
+.picture{
+    color-interpolation-filters: auto;
+}
+.about{
+    margin: 100px;
+}
+    .discribe1{
+        margin: 30px;
+    } 
+    
+    .table{
+        margin: -60px;
+         color-interpolation-filters: auto;
+         background-attachment: fixed;
+         background-color: aquamarine;
+    }
+.play{
+    margin-bottom: 100px;
+}   
+
+
+
+
+    </style>
+</head>
+  
+<body>
+    <h1>
+            
+    
+
+    <div class="navlinks" c>
+            <li><a href="">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#play">video</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+        </div>
+        
+    </h1>
+    <center>
+    <div >
+         <h2 style="font-size: 50px;">
+            My personal profile
+         </h2> 
+        </center>
+    </div>
+    <div class="picture">
+        <center><img src="../img/jamin at sea.jpg" alt="" height="500px" width="500px">
+        <p style="size: 60;">
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            
+            Hello my name is Teeraphat Saiubon my nick name is Jamin I am 19 years old.
+            <br>
+            I graduated from HuaHin-Vitayalai school. 
+            <br>
+            
+            I am quite good at english but not good that much on coding
+            but our life 
+            <br>
+            is about growing I am not afraid of it.
+        </p></center>
+
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+
+        <hr>
+        
+        
+</div>
+<div class="space"></div>
+
+<div class="about" id="about">
+   <center> <h2 style="font-size: 50px;">
+        About me
+        <br>
+
+    </h2></center>
+
+    <center><img src="../img/pink.jpg" width="500px" height="500px"></center>
+     <div class="discribe1">
+        <center><img src="../img/certi.jpg" width="500px" height="500px"</center>
+        <center>   <img src="../img/ate it.png" width="500px" height="500px"</center>
+     </div><div>
+    
+ 
+
+
+        </div>
+
+</div>
+
+</div>
+<div class="table">
+<tbody >
+   <center> <table border="1px" >
+        <tr>
+        <td>Name</td>
+        <td>Teeraphat Saiubon</td>
+    </tr>
+    <tr>
+        <td>Nickname</td>
+        <td>Jamin</td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td>19</td>
+        <tr>
+            <td>date of birth</td>
+            <td>24/09/2004</td>
+        </tr>
+    </tr>
+    <tr>
+        <td>
+            Highschool
+        </td>
+        <td>
+            HuaHin-Vitayalai
+        </td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>jameshaha123@gmail.com</td>
+    </tr>
+
+    </table></center></div>
+    
+</tbody>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<br>
+<hr>
+
+
+
+<center><section id="contact" class="main style3 secondary">
+    <div class="content">
+        <header>
+            <h2>Contact me</h2>
+            <p>If you want to contact me please contact by my email.</p>
+        </header>
+        <div class="box">
+            <form method="post" action="#">
+                <div class="fields">
+                    <div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+                    <div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+                    <div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+                </div>
+                <ul class="actions special">
+                    <li><input type="submit" value="Send Message" /></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</section></center>
+
+<hr>
+
+<br>
+<br>
+
+<div class="play" id="play">
+
+</video>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/k4byc2BeBOc?si=HYmWkg_ijKqGOXpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+</div>
+<hr>
+
+
+
+
+
+</body>
+</html>
